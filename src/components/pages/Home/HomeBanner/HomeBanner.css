@@ -1,0 +1,47 @@
+.developer_name{
+    font-Size:70px; 
+    color:#514A94;
+}
+.button_1{
+    padding: 5px 15px;
+    border: none;
+    background-image: linear-gradient(90deg, #F559C7, #ec83cd );
+    border-radius: 2px;
+    color: #000;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.button_2 {
+    padding: 5px 15px;
+    border: none;
+    background-image: linear-gradient(90deg, #514A94, #726abe );
+    border-radius: 2px;
+    color: #fff;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 0.5s;
+}
+
+.button_2 a:hover{
+    color:#fff;
+}
+.button_2 a{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media only screen and (max-width: 768px){
+    .developer_name{
+        font-size: 45px;
+    }
+
+   }
+   @media only screen and (max-width: 425px){
+  
+    .developer_name{
+        font-size: 45px;
+    }
+   
+   }
